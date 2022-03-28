@@ -29,8 +29,8 @@
 
 "logo@flanba_loadscreen.logo": {
   "layer": 3,
-  "type": "image",
-  "texture": "textures/ui/title",
+  "type": "image", 
+  "texture": "textures/logo",
   "size": [220, 110],
   "offset": [0, -30],
   "anchor_to": "center",
