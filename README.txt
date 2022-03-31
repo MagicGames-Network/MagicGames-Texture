@@ -22,5 +22,5 @@ Various Sources
 - Thermal Foundation MC:JE Modpack
 
 Contact Us:
-https://discord.gg/magicgames
-
+- https://discord.gg/magicgames
+- help.pushkar@gmail.com
