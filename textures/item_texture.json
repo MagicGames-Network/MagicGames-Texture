@@ -1,0 +1,457 @@
+{
+   "resource_pack_name" : "vanilla",
+   "texture_name" : "atlas.items",
+   "texture_data" : {      
+    "pickaxeeruption" : {
+         "textures" : "textures/items/pickaxe/PickaxeEruption.png"
+      },
+	  "pickaxeflame" : {
+         "textures" : "textures/items/pickaxe/PickaxeFlame.png"
+      },
+	  "pickaxelava" : {
+         "textures" : "textures/items/pickaxe/PickaxeLava.png"
+      },
+  	"passport" : {
+           "textures" : "textures/items/other/Passport.png"
+        },
+  	"pickaxeboulder" : {
+           "textures" : "textures/items/pickaxe/PickaxeBoulder.png"
+        },
+  	"pickaxedragon" : {
+           "textures" : "textures/items/pickaxe/PickaxeDragon.png"
+        },
+  	"pickaxejackpot" : {
+           "textures" : "textures/items/pickaxe/PickaxeJackpot.png"
+        },  
+  	"pickaxedolphin" : {
+           "textures" : "textures/items/pickaxe/PickaxeDolphin.png"
+      },
+    "blood_rune":{
+      "textures":[
+        "textures/items/runes/blood_rune"
+      ]
+    },
+    "redstone_rune":{
+      "textures":[
+        "textures/items/runes/redstone_rune"
+      ]
+    },
+    "clouds_rune":{
+      "textures":[
+        "textures/items/runes/clouds_rune"
+      ]
+    },
+    "fire_spiral_rune":{
+      "textures":[
+        "textures/items/runes/fire_spiral_rune"
+      ]
+    },
+    "gem_rune":{
+      "textures":[
+        "textures/items/runes/gem_rune"
+      ]
+    },
+    "golden_rune":{
+      "textures":[
+        "textures/items/runes/golden_rune"
+      ]
+    },
+    "hearts_rune":{
+      "textures":[
+        "textures/items/runes/hearts_rune"
+      ]
+    },
+    "hot_rune":{
+      "textures":[
+        "textures/items/runes/hot_rune"
+      ]
+    },
+    "ice_rune":{
+      "textures":[
+        "textures/items/runes/ice_rune"
+      ]
+    },
+    "lava_rune":{
+      "textures":[
+        "textures/items/runes/lava_rune"
+      ]
+    },
+    "lightning_rune":{
+      "textures":[
+        "textures/items/runes/lightning_rune"
+      ]
+    },
+    "magical_rune":{
+      "textures":[
+        "textures/items/runes/magical_rune"
+      ]
+    },
+    "music_rune":{
+      "textures":[
+        "textures/items/runes/music_rune"
+      ]
+    },
+    "rainbow_rune":{
+      "textures":[
+        "textures/items/runes/rainbow_rune"
+      ]
+    },
+    "smokey_rune":{
+      "textures":[
+        "textures/items/runes/smokey_rune"
+      ]
+    },
+    "snow_rune":{
+      "textures":[
+        "textures/items/runes/snow_rune"
+      ]
+    },
+    "sparkling_rune":{
+      "textures":[
+        "textures/items/runes/sparkling_rune"
+      ]
+    },
+    "wake_rune":{
+      "textures":[
+        "textures/items/runes/wake_rune"
+      ]
+    },
+    "white_spiral_rune":{
+      "textures":[
+        "textures/items/runes/white_spiral_rune"
+      ]
+    },
+    "zap_rune":{
+      "textures":[
+        "textures/items/runes/zap_rune"
+      ]
+      },
+    "aspect_of_the_end" : {
+         "textures" : "textures/items/sword/aspect_of_the_end.png"
+      },
+    "blueprint" : {
+         "textures" : "textures/items/other/blueprint.png"
+      },
+    "campfire_scion_badge" : {
+         "textures" : "textures/items/other/campfire_scion_badge.png"
+      },
+    "elucidator" : {
+         "textures" : "textures/items/sword/elucidator.png"
+      },
+    "fairy_feather" : {
+         "textures" : "textures/items/other/fairy_feather.png"
+      },
+    "frozen_scythe" : {
+         "textures" : "textures/items/axe/frozen_scythe.png"
+      },
+    "golden_feather" : {
+         "textures" : "textures/items/other/golden_feather.png"
+      },
+    "golem_sword" : {
+         "textures" : "textures/items/sword/golem_sword.png"
+      },
+    "hyper_catalyst" : {
+         "textures" : "textures/items/other/hyper_catalyst.png"
+      },
+    "leaping_sword" : {
+         "textures" : "textures/items/sword/leaping_sword.png"
+      },
+    "midas_sword" : {
+         "textures" : "textures/items/sword/midas_sword.png"
+      },
+    "pooch_sword" : {
+         "textures" : "textures/items/sword/pooch_sword.png"
+      },
+    "promising_axe" : {
+         "textures" : "textures/items/axe/promising_axe.png"
+      },
+    "raider_axe" : {
+         "textures" : "textures/items/axe/raider_axe.png"
+      },
+    "redstone_pickaxe" : {
+         "textures" : "textures/items/pickaxe/redstone_pickaxe.png"
+      },
+    "rogue_sword" : {
+         "textures" : "textures/items/sword/rogue_sword.png"
+      },
+    "seal_of_the_oceans" : {
+         "textures" : "textures/items/other/seal_of_the_oceans.png"
+      },
+    "seal_of_the_seas" : {
+         "textures" : "textures/items/other/seal_of_the_seas.png"
+      },
+    "shaman_sword" : {
+         "textures" : "textures/items/sword/shaman_sword.png"
+      },
+    "silver_fang" : {
+         "textures" : "textures/items/sword/silver_fang.png"
+      },
+    "spirit_sword" : {
+         "textures" : "textures/items/sword/spirit_sword.png"
+      },
+    "tactician_sword" : {
+         "textures" : "textures/items/sword/tactician_sword.png"
+      },
+    "thick_tactician_sword" : {
+         "textures" : "textures/items/sword/thick_tactician_sword.png"
+      },
+    "yeti_sword" : {
+         "textures" : "textures/items/sword/yeti_sword.png"
+      },
+    "zombie_sword" : {
+         "textures" : "textures/items/sword/zombie_sword.png"
+      },
+    "magnetic_talisman": {
+      "textures": [
+        "textures/items/talisman/magnetic_talisman"
+      ]
+    },
+    "scavenger_talisman": {
+      "textures": [
+        "textures/items/talisman/scavenger_talisman"
+      ]
+    },
+    "farming_talisman": {
+      "textures": [
+        "textures/items/talisman/farming_talisman"
+      ]
+    },
+    "feather_talisman": {
+      "textures": [
+        "textures/items/talisman/feather_talisman"
+      ]
+    },
+    "dirty_rich_talisman": {
+      "textures": [
+        "textures/items/talisman/dirty_rich_talisman"
+      ]
+    },
+    "fire_talisman": {
+      "textures": [
+        "textures/items/talisman/fire_talisman"
+      ]
+    },
+    "gravity_talisman": {
+      "textures": [
+        "textures/items/talisman/gravity_talisman"
+      ]
+    },
+    "healing_talisman": {
+      "textures": [
+        "textures/items/talisman/healing_talisman"
+      ]
+    },
+    "lava_talisman": {
+      "textures": [
+        "textures/items/talisman/lava_talisman"
+      ]
+    },
+    "speed_talisman": {
+      "textures": [
+        "textures/items/talisman/speed_talisman"
+      ]
+    },
+    "talisman_of_coins": {
+      "textures": [
+        "textures/items/talisman/talisman_of_coins"
+      ]
+    },
+    "vaccine_talisman": {
+      "textures": [
+        "textures/items/talisman/vaccine_talisman"
+      ]
+    },
+    "village_affinity_talisman": {
+      "textures": [
+        "textures/items/talisman/village_affinity_talisman"
+      ]
+    },
+    "wood_affinity_talisman": {
+      "textures": [
+        "textures/items/talisman/wood_affinity_talisman"
+      ]
+    },
+    "zombie_talisman": {
+      "textures": [
+        "textures/items/talisman/zombie_talisman"
+      ]
+    },
+    "burger": {
+      "textures": [
+        "textures/items/food/burger"
+      ]
+    },
+    "christmas_pudding": {
+      "textures": [
+        "textures/items/food/christmas_pudding"
+      ]
+    },
+    "hotdog": {
+      "textures": [
+        "textures/items/food/hotdog"
+      ]
+    },
+    "ice-cream": {
+      "textures": [
+        "textures/items/food/ice-cream"
+      ]
+    },
+    "kfc_chicken": {
+      "textures": [
+        "textures/items/food/kfc_chicken"
+      ]
+    },
+    "lolipop": {
+      "textures": [
+        "textures/items/food/lolipop"
+      ]
+    },
+    "pizza": {
+      "textures": [
+        "textures/items/food/pizza"
+      ]
+    },
+    "sandwich": {
+      "textures": [
+        "textures/items/food/sandwich"
+      ]
+    },
+    "yellowcupcake": {
+      "textures": [
+        "textures/items/food/yellowcupcake"
+      ]
+      },
+    "builders_wand" : {
+         "textures" : "textures/items/wand/builders_wand.png"
+      },
+    "gear" : {
+         "textures" : "textures/items/other/gear.png"
+      },
+    "jungle_axe" : {
+         "textures" : "textures/items/axe/jungle_axe.png"
+      },
+    "mushroom_cow_axe" : {
+         "textures" : "textures/items/axe/mushroom_cow_axe.png"
+      },
+    "sculptor_axe" : {
+         "textures" : "textures/items/axe/sculptor_axe.png"
+      },
+    "close" : {
+         "textures" : "textures/items/gui/close.png"
+      },
+    "glass" : {
+         "textures" : "textures/items/gui/glass.png"
+      },
+    "glass2" : {
+         "textures" : "textures/items/gui/glass2.png"
+      },
+    "locked" : {
+         "textures" : "textures/items/gui/locked.png"
+      },
+    "question" : {
+         "textures" : "textures/items/gui/question.png"
+      },
+    "table" : {
+         "textures" : "textures/items/gui/table.png"
+      },
+    "hoe_of_greater_tilling" : {
+         "textures" : "textures/items/hoe/hoe_of_greater_tilling.png"
+      },
+    "hoe_of_tilling" : {
+         "textures" : "textures/items/hoe/hoe_of_tilling.png"
+      },
+    "bag" : {
+         "textures" : "textures/items/other/bag.png"
+      },
+    "money" : {
+         "textures" : "textures/items/other/money.png"
+      },
+    "piggy_bank" : {
+         "textures" : "textures/items/other/piggy_bank.png"
+      },
+    "acacia" : {
+         "textures" : "textures/items/minion/acacia.png"
+      },
+    "birch" : {
+         "textures" : "textures/items/minion/birch.png"
+      },
+    "carrot" : {
+         "textures" : "textures/items/minion/carrot.png"
+      },
+    "clay" : {
+         "textures" : "textures/items/minion/clay.png"
+      },
+    "coal" : {
+         "textures" : "textures/items/minion/coal.png"
+      },
+    "cobblestone" : {
+         "textures" : "textures/items/minion/cobblestone.png"
+      },
+    "dark_oak" : {
+         "textures" : "textures/items/minion/dark_oak.png"
+      },
+    "diamond" : {
+         "textures" : "textures/items/minion/diamond.png"
+      },
+    "emerald" : {
+         "textures" : "textures/items/minion/emerald.png"
+      },
+    "endstone" : {
+         "textures" : "textures/items/minion/endstone.png"
+      },
+    "glowstone" : {
+         "textures" : "textures/items/minion/glowstone.png"
+      },
+    "gold" : {
+         "textures" : "textures/items/minion/gold.png"
+      },
+    "gravel" : {
+         "textures" : "textures/items/minion/gravel.png"
+      },
+    "iron" : {
+         "textures" : "textures/items/minion/iron.png"
+      },
+    "jungle" : {
+         "textures" : "textures/items/minion/jungle.png"
+      },
+    "lapis" : {
+         "textures" : "textures/items/minion/lapis.png"
+      },
+    "melon" : {
+         "textures" : "textures/items/minion/melon.png"
+      },
+    "mushroom" : {
+         "textures" : "textures/items/minion/mushroom.png"
+      },
+    "oak" : {
+         "textures" : "textures/items/minion/oak.png"
+      },
+    "obsidian" : {
+         "textures" : "textures/items/minion/obsidian.png"
+      },
+    "potato" : {
+         "textures" : "textures/items/minion/potato.png"
+      },
+    "quartz" : {
+         "textures" : "textures/items/minion/quartz.png"
+      },
+    "redstone" : {
+         "textures" : "textures/items/minion/redstone.png"
+      },
+    "sand" : {
+         "textures" : "textures/items/minion/sand.png"
+      },
+    "snow" : {
+         "textures" : "textures/items/minion/snow.png"
+      },
+    "spruce" : {
+         "textures" : "textures/items/minion/spruce.png"
+      },
+    "sugar_cane" : {
+         "textures" : "textures/items/minion/sugar_cane.png"
+      },
+    "wheat" : {
+         "textures" : "textures/items/minion/wheat.png"
+      }
+   }
+}
