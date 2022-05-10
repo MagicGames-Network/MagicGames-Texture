@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Texture for MagicGames",
+    "name": "MagicGames-Screen",
+    "uuid": "0a996792-7109-4e92-a3f1-2789d1d105fc",
+    "version": [0, 2, 2],
+    "min_engine_version": [ 1, 16, 0 ]
+  },
+  "modules": [
+    {
+      "description": "Texture for MagicGames",
+      "type": "resources",
+      "uuid": "57ca116f-f608-42fd-a615-325d88522c19",
+      "version": [0, 2, 2]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Texture for MagicGames",
+    "name": "MagicGames-Icon",
+    "uuid": "9b647aca-4349-13a7-5411-0e75e8858889",
+    "version": [0, 2, 2],
+    "min_engine_version": [ 1, 16, 0 ]
+  },
+  "modules": [
+    {
+      "description": "Texture for MagicGames",
+      "type": "resources",
+      "uuid": "391c0015-4349-4afe-82fe-b9df82fe6731",
+      "version": [0, 2, 2]
+    }
+  ]
+}
