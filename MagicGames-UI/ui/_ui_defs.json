@@ -1,0 +1,10 @@
+{
+  "ui_defs": [
+    "ui/magic/magic_long_form.json",
+    "ui/magic/magic_custom_form.json",
+    "ui/magic/magic_buttons.json",
+    "ui/magic/magic_common.json",
+    "ui/magic/magic_scroll.json",
+    "ui/magic/magic_dynamic_form.json"
+  ]
+}

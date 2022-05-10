@@ -1,0 +1,453 @@
+{
+  "namespace": "common",
+  "empty_progress_bar_red": {
+    "type": "image",
+    "texture": "textures/ui/empty_progress_bar",
+    "color": [
+      1,
+      0,
+      0
+    ]
+  },
+  "filled_progress_bar_red": {
+    "type": "image",
+    "texture": "textures/ui/filled_progress_bar",
+    "clip_direction": "left",
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "bindings": [
+      {
+        "binding_name": "#progress_percentage",
+        "binding_name_override": "#clip_ratio"
+      }
+    ]
+  },
+  "filled_progress_bar_for_collections_red@filled_progress_bar_red": {
+    "clip_pixelperfect": false,
+    "bindings": [
+      {
+        "binding_name": "#progress_percentage",
+        "binding_name_override": "#clip_ratio",
+        "binding_type": "collection",
+        "binding_collection_name": "$progress_bar_collection"
+      }
+    ]
+  },
+  "progress_bar_red": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "offset": [
+      0,
+      20
+    ],
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty_progress_bar_red@common.empty_progress_bar_red": {
+          "layer": 1
+        }
+      },
+      {
+        "filled_progress_bar_red@common.filled_progress_bar_red": {
+          "layer": 2
+        }
+      }
+    ]
+  },
+  "progress_bar_for_collections_red@progress_bar_red": {
+    "controls": [
+      {
+        "empty_progress_bar_red@common.empty_progress_bar_red": {
+          "layer": 1
+        }
+      },
+      {
+        "filled_progress_bar_for_collections_red@common.filled_progress_bar_for_collections_red": {
+          "layer": 2
+        }
+      }
+    ]
+  },
+  "empty_progress_bar_green": {
+    "type": "image",
+    "texture": "textures/ui/empty_progress_bar",
+    "color": [
+      0,
+      1,
+      0
+    ]
+  },
+  "filled_progress_bar_green": {
+    "type": "image",
+    "texture": "textures/ui/filled_progress_bar",
+    "clip_direction": "left",
+    "color": [
+      0,
+      1,
+      0
+    ],
+    "bindings": [
+      {
+        "binding_name": "#progress_percentage",
+        "binding_name_override": "#clip_ratio"
+      }
+    ]
+  },
+  "filled_progress_bar_for_collections_green@filled_progress_bar_green": {
+    "clip_pixelperfect": false,
+    "bindings": [
+      {
+        "binding_name": "#progress_percentage",
+        "binding_name_override": "#clip_ratio",
+        "binding_type": "collection",
+        "binding_collection_name": "$progress_bar_collection"
+      }
+    ]
+  },
+  "progress_bar_green": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "offset": [
+      0,
+      20
+    ],
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty_progress_bar_green@common.empty_progress_bar_green": {
+          "layer": 1
+        }
+      },
+      {
+        "filled_progress_bar_green@common.filled_progress_bar_green": {
+          "layer": 2
+        }
+      }
+    ]
+  },
+  "progress_bar_for_collections_green@progress_bar_green": {
+    "controls": [
+      {
+        "empty_progress_bar_green@common.empty_progress_bar_green": {
+          "layer": 1
+        }
+      },
+      {
+        "filled_progress_bar_for_collections_green@common.filled_progress_bar_for_collections_green": {
+          "layer": 2
+        }
+      }
+    ]
+  },
+  "empty_progress_bar_blue": {
+    "type": "image",
+    "texture": "textures/ui/empty_progress_bar",
+    "color": [
+      0,
+      0.75,
+      1
+    ]
+  },
+  "filled_progress_bar_blue": {
+    "type": "image",
+    "texture": "textures/ui/filled_progress_bar",
+    "clip_direction": "left",
+    "color": [
+      0,
+      0.75,
+      1
+    ],
+    "bindings": [
+      {
+        "binding_name": "#progress_percentage",
+        "binding_name_override": "#clip_ratio"
+      }
+    ]
+  },
+  "filled_progress_bar_for_collections_blue@filled_progress_bar_blue": {
+    "clip_pixelperfect": false,
+    "bindings": [
+      {
+        "binding_name": "#progress_percentage",
+        "binding_name_override": "#clip_ratio",
+        "binding_type": "collection",
+        "binding_collection_name": "$progress_bar_collection"
+      }
+    ]
+  },
+  "progress_bar_blue": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "offset": [
+      0,
+      20
+    ],
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty_progress_bar_blue@common.empty_progress_bar_blue": {
+          "layer": 1
+        }
+      },
+      {
+        "filled_progress_bar_blue@common.filled_progress_bar_blue": {
+          "layer": 2
+        }
+      }
+    ]
+  },
+  "progress_bar_for_collections_blue@progress_bar_blue": {
+    "controls": [
+      {
+        "empty_progress_bar_blue@common.empty_progress_bar_blue": {
+          "layer": 1
+        }
+      },
+      {
+        "filled_progress_bar_for_collections_blue@common.filled_progress_bar_for_collections_blue": {
+          "layer": 2
+        }
+      }
+    ]
+  },
+  "empty_progress_bar_purple": {
+    "type": "image",
+    "texture": "textures/ui/empty_progress_bar",
+    "color": [
+      0.5,
+      0,
+      0.9
+    ]
+  },
+  "filled_progress_bar_purple": {
+    "type": "image",
+    "texture": "textures/ui/filled_progress_bar",
+    "clip_direction": "left",
+    "color": [
+      0.5,
+      0,
+      0.9
+    ],
+    "bindings": [
+      {
+        "binding_name": "#progress_percentage",
+        "binding_name_override": "#clip_ratio"
+      }
+    ]
+  },
+  "filled_progress_bar_for_collections_purple@filled_progress_bar_purple": {
+    "clip_pixelperfect": false,
+    "bindings": [
+      {
+        "binding_name": "#progress_percentage",
+        "binding_name_override": "#clip_ratio",
+        "binding_type": "collection",
+        "binding_collection_name": "$progress_bar_collection"
+      }
+    ]
+  },
+  "progress_bar_purple": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "offset": [
+      0,
+      20
+    ],
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty_progress_bar_purple@common.empty_progress_bar_purple": {
+          "layer": 1
+        }
+      },
+      {
+        "filled_progress_bar_purple@common.filled_progress_bar_purple": {
+          "layer": 2
+        }
+      }
+    ]
+  },
+  "progress_bar_for_collections_purple@progress_bar_purple": {
+    "controls": [
+      {
+        "empty_progress_bar_purple@common.empty_progress_bar_purple": {
+          "layer": 1
+        }
+      },
+      {
+        "filled_progress_bar_for_collections_purple@common.filled_progress_bar_for_collections_purple": {
+          "layer": 2
+        }
+      }
+    ]
+  },
+  "empty_progress_bar_white": {
+    "type": "image",
+    "texture": "textures/ui/empty_progress_bar",
+    "color": [
+      1,
+      1,
+      1
+    ]
+  },
+  "filled_progress_bar_white": {
+    "type": "image",
+    "texture": "textures/ui/filled_progress_bar",
+    "clip_direction": "left",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "bindings": [
+      {
+        "binding_name": "#progress_percentage",
+        "binding_name_override": "#clip_ratio"
+      }
+    ]
+  },
+  "filled_progress_bar_for_collections_white@filled_progress_bar_white": {
+    "clip_pixelperfect": false,
+    "bindings": [
+      {
+        "binding_name": "#progress_percentage",
+        "binding_name_override": "#clip_ratio",
+        "binding_type": "collection",
+        "binding_collection_name": "$progress_bar_collection"
+      }
+    ]
+  },
+  "progress_bar_white": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "offset": [
+      0,
+      20
+    ],
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty_progress_bar_white@common.empty_progress_bar_white": {
+          "layer": 1
+        }
+      },
+      {
+        "filled_progress_bar_white@common.filled_progress_bar_white": {
+          "layer": 2
+        }
+      }
+    ]
+  },
+  "progress_bar_for_collections_white@progress_bar_white": {
+    "controls": [
+      {
+        "empty_progress_bar_white@common.empty_progress_bar_white": {
+          "layer": 1
+        }
+      },
+      {
+        "filled_progress_bar_for_collections_white@common.filled_progress_bar_for_collections_white": {
+          "layer": 2
+        }
+      }
+    ]
+  },
+  "empty_progress_bar_yellow": {
+    "type": "image",
+    "texture": "textures/ui/empty_progress_bar",
+    "color": [
+      1,
+      1,
+      0
+    ]
+  },
+  "filled_progress_bar_yellow": {
+    "type": "image",
+    "texture": "textures/ui/filled_progress_bar",
+    "clip_direction": "left",
+    "color": [
+      1,
+      1,
+      0
+    ],
+    "bindings": [
+      {
+        "binding_name": "#progress_percentage",
+        "binding_name_override": "#clip_ratio"
+      }
+    ]
+  },
+  "filled_progress_bar_for_collections_yellow@filled_progress_bar_yellow": {
+    "clip_pixelperfect": false,
+    "bindings": [
+      {
+        "binding_name": "#progress_percentage",
+        "binding_name_override": "#clip_ratio",
+        "binding_type": "collection",
+        "binding_collection_name": "$progress_bar_collection"
+      }
+    ]
+  },
+  "progress_bar_yellow": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "offset": [
+      0,
+      20
+    ],
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty_progress_bar_yellow@common.empty_progress_bar_yellow": {
+          "layer": 1
+        }
+      },
+      {
+        "filled_progress_bar_yellow@common.filled_progress_bar_yellow": {
+          "layer": 2
+        }
+      }
+    ]
+  },
+  "progress_bar_for_collections_yellow@progress_bar_yellow": {
+    "controls": [
+      {
+        "empty_progress_bar_yellow@common.empty_progress_bar_yellow": {
+          "layer": 1
+        }
+      },
+      {
+        "filled_progress_bar_for_collections_yellow@common.filled_progress_bar_for_collections_yellow": {
+          "layer": 2
+        }
+      }
+    ]
+  }
+}

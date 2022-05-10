@@ -1,0 +1,122 @@
+{
+  "namespace": "server_form",
+  "third_party_server_screen@common.base_screen": {
+    "type": "screen",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "$screen_content": "server_form.main_screen_content",
+    "$screen_animations|default": [
+      "@magic_common.screen_exit_animation_pop_offset",
+      "@magic_common.screen_entrance_animation_push_offset",
+      "@magic_common.screen_exit_animation_pop_fade",
+      "@magic_common.screen_entrance_animation_push_fade"
+    ],
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      }
+    ]
+  },
+  "main_screen_content": {
+    "type": "panel",
+    "size": [
+      "100% - 100px",
+      "100% - 50px"
+    ],
+    "controls": [
+      {
+        "server_form_factory": {
+          "type": "factory",
+          "control_ids": {
+            "long_form": "@server_form.magic_dynamic_screen_content",
+            "custom_form": "@server_form.magic_custom_screen_content"
+          }
+        }
+      },
+      {
+        "background@common.screen_background": {
+          "size": [
+            "200%",
+            "200%"
+          ],
+          "alpha": 0.3
+        }
+      }
+    ]
+  },
+  "magic_dynamic_screen_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [
+      "100%",
+      200
+    ],
+    "max_size": [
+      372,
+      200
+    ],
+    "controls": [
+      {
+        "header@magic_common.header_panel": {
+          "size": [
+            "100% - 4px",
+            20
+          ],
+          "max_size": [
+            367,
+            20
+          ]
+        }
+      },
+      {
+        "cube_dynamic_form@magic_dynamic_form.dynamic_form": {
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_property_name": "(not ((#title_text - 'is_dynamic') = #title_text))",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "long_form@magic_long_form.long_form": {
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_property_name": "((#title_text - 'is_dynamic') = #title_text)",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "magic_custom_screen_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [
+      225,
+      200
+    ],
+    "controls": [
+      {
+        "header@magic_common.header_panel": {
+          "size": [
+            231,
+            20
+          ]
+        }
+      },
+      {
+        "custom_form@magic_custom_form.custom_form": {}
+      }
+    ]
+  }
+}

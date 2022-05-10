@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "MagicGames UI Resource Pack",
+    "name": "MagicGames UI Resource Pack",
+    "uuid": "58e332e2-630e-4fe9-b026-4ede3ce876e4",
+    "version": [
+      0,
+      2,
+      2
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "MagicGames Ui",
+      "type": "resources",
+      "uuid": "07b95439-c8cd-48bb-bd8f-b35f7804e1b8",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

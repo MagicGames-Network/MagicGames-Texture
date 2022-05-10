@@ -1,0 +1,37 @@
+{
+  "$9_color_format": [
+    0.22745098,
+    0.662745098,
+    1
+  ],
+  "$magic_main_blue": [
+    0.227,
+    0.662,
+    1
+  ],
+  "$magic_complementary_blue": [
+    0.117,
+    0.537,
+    0.921
+  ],
+  "$magic_off_white": [
+    0.807,
+    0.882,
+    0.917
+  ],
+  "$magic_gold": [
+    1,
+    0.768,
+    0.301
+  ],
+  "$magic_complementary_gold": [
+    0.917,
+    0.56,
+    0
+  ],
+  "$magic_green": [
+    0,
+    0.666,
+    0
+  ]
+}
